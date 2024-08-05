@@ -90,17 +90,17 @@ $(".overflow").click(function() {
       $("html,body").animate({
               scrollTop: 0,
           },
-          1500
+          100
       );
   });
   $(this).scrollTop() >= 500 ?
-      $(".arrow-top").fadeIn(300) :
-      $(".arrow-top").fadeOut(300);
+      $(".arrow-top").fadeIn() :
+      $(".arrow-top").fadeOut();
 
   $(window).scroll(function() {
       $(this).scrollTop() >= 500 ?
-          $(".arrow-top").fadeIn(300) :
-          $(".arrow-top").fadeOut(300);
+          $(".arrow-top").fadeIn() :
+          $(".arrow-top").fadeOut();
   })
 
 

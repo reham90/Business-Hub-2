@@ -1230,7 +1230,9 @@ align-items: center;
     object-fit: cover;
     height: 100vh;
   }
- 
+  .show-icons{
+    font-size: 35px;
+  }
   .services-title{
     font-size: 58px;
   }

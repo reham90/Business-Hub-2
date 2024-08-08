@@ -17,6 +17,7 @@ a:hover {
   overflow: hidden;
   background-color: rgba(0,0,0,0.851);
  position: fixed;
+ width: 100%;
 }
 :root {
   --main-color: #000;
@@ -559,6 +560,9 @@ html[dir="ltr"] .search-lang-section{
   width: 100%;
   max-width: 100%;
 
+}
+.main-section-img img{
+  width:100%;
 }
 
 
